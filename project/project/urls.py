@@ -24,4 +24,5 @@ urlpatterns = [
     path('page_1/', include('django.contrib.flatpages.urls')),
     path('page_2/', include('django.contrib.flatpages.urls')),
     path('page_3/', include('django.contrib.flatpages.urls')),
+    path('apple/', include('django.contrib.flatpages.urls')),
 ]
